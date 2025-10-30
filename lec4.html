@@ -19,20 +19,32 @@
         <label>password</label>
         <input type="password" name="userPassword">
         <br><br>
-        <label>Male</label>
-        <input type="radio" name="gender">
-        <label>female</label>
-        <input type="radio" name="gender">
-        <label>Neutral</label>
-        <input type="radio" name="gender">  
+        <label for="male"> Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="neutral">Neutral</label>
+        <input type="radio" name="gender" id="neutral" value="Other">  
         <br><br>  
-        <input type="submit">
-
+        
+        <!--value helps to get to store info about male,female and other in backene
+        this radiobutton allows to select only one but what if i want to select more than one choice-->
+<!--using checkbox for multiple values
     </form>
     
-</body>
-</html>
-<!--using name keyword so website get to know where to save mentioned info-->
+<!-using name keyword so website get to know where to save mentioned info-->
 <!--look above code in preview submit ur response and after submission 
 u will see it on link look carefully its there submit in backened!-->
-<!--Radiobutton-->
+<!--Radiobutton for gender-->
+<label for="Html">Html</label>
+<input type="checkbox" name="subject" id="Html" value="Html">
+<label for="python">Python</label>
+<input type="checkbox" name="subject" id="python" value="python">
+<label for="javascript">Javascript</label>
+<input type="checkbox" name="subject" id="javascript" value="javascript">
+
+<br><br>  
+        <input type="submit">
+        </body>
+</html>
+
