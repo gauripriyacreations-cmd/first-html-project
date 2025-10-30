@@ -9,36 +9,78 @@
 <body>
     <h1>University Registration Form</h1>
     <h4>please fill the form below to register</h4>
-    <h2>Personal Details</h2>
-    <label >First Name:</label>
-    <input type="text" name="user fname">
-    <br><br>
-    <label >Last Name: </label>
-    <input type="text" name="user Lname">
-    <br><br>
-    <label >Date Of Birth: </label>
-    <input type="date"
-    <br><br>
-    <label for="male">Male</label>
-    <input type="Radio" name="Gender" id="male" value="male">
-    <br>
-    <label for="Female">Female</label>
-    <input type="Radio" name="Gender" id="Female" value="Female">
-    <br>
-    <label for="Other">Other</label>
-    <input type="radio" name="Gender" id="Other" value="Other">
-    <h3>upload ur photos:</h3>
-    <input type="file" name="file">
-    <h2>Contact Information </h2>
-    <label for="email">email Address</label>
-    <input type="email" name="user_emailAdd" id="email">
-    <br><br>
-    <label>Phone Number</label>
-    <input type="tel" name="user_phone_no">
-    <br><br>
-    <!--for writng long text-->
-    <label for="mailing address">Mailing Address</label>
-    <br>
-    <textarea <textarea name="Address" id="mailing address" row="80" column="30"></textarea>
-</body>
-</html>
+    <form>
+        <h2>Personal Details</h2>
+        <label >First Name:</label>
+        <input type="text" name="user_fname" placeholder="eg.arjun" required>
+        <br><br>
+        <label >Last Name: </label>
+        <input type="text" name="user_Lname" required>
+        <br><br>
+        <label >Date Of Birth: </label>
+        <input type="date"
+        <br><br>
+        <label for="male">Male</label>
+        <input type="Radio" name="Gender" id="male" value="male">
+        <br>
+        <label for="Female">Female</label>
+        <input type="Radio" name="Gender" id="Female" value="Female">
+        <br>
+        <label for="Other">Other</label>
+        <input type="radio" name="Gender" id="Other" value="Other">
+        <h3>upload ur photos:</h3>
+        <input type="file" name="file">
+        <h2>Contact Information </h2>
+        <label for="email">email Address</label>
+        <input type="email" name="user_emailAdd" id="email" placeholder="example@.com" required>
+        <br><br>
+        <label>Phone Number</label>
+        <input type="tel" name="user_phone_no">
+        <br><br>
+        <!--for writng long text-->
+        <label for="mailing address">Mailing Address</label>
+        <br>
+        <textarea name="Address" id="mailing address" rows="10" cols="30"></textarea>
+        <h2>Academic Information</h2>
+        <label for="course">Select ur course</label>
+        <select name="course" id="course">
+            <option value="CSE">CSE</option>
+            <option value="Ece">Ece</option>
+            <option value="ME">ME</option>
+            <option value="CHEM.eng">CHEM.eng</option>
+            <option value="Civil">Civil</option>
+        </select>
+        <h3>Extra Curicular Activities</h3>
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="interest" id="sports" value="sports">
+        <br><br>
+
+        <label for="arts">Arts</label>
+        <input type="checkbox" name="interest" id="arts" value="arts">
+        <br><br>
+        <label for="Tech">Tech</label>
+        <input type="checkbox" name="interest" id="Tech" value="Tech">
+        <br><br>
+        <label for="Music">Music</label>
+        <input type="checkbox" name="interest" id="Music" value="Music">
+        <h2>Create Your Account</h2>
+        <label>Create a Password: </label>
+        <input type="PASSWORD" name="password">
+        <br><br>
+        <label for="sq">Security Question</label>
+        <select name="Security Question" id="sq">
+            <option value="pet">ur first pet name?</option>
+            <option value="Hobby">ur Hobby?</option>
+            <option value="color">ur fav color?</option>
+            <option value="Food">ur fav food?</option>
+        </select>
+        <br><br>
+        <label>Security answer: </label>
+        <input type="text" name="text">
+        <br><br>
+        <label for="condt">I agree to ur Terms and Conditions </label>
+        <input type="checkbox" name="Terms and condition" id="condt" value="agreed">   <!--VALUE USED FOR CHECKBOX TO GIVE BACKENED VALUE NOT JUST ON AND OFF-->
+        <br><br>
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+    </form>
