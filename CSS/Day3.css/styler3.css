@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    background-color: aqua;
+    position: relative;
+    left: 480px;
+    /*top:2px;
+    bottom:130px;
+    */
+}
+h2{
+    background-color: rgb(227, 146, 146);
+    /*position: fixed;
+    bottom: 550px;
+    ;/*fixing h2 in bottom now scroll down but header got fixed*/
+}
+
+p{
+    background-color: aquamarine;
+    /* absolute - m wo item apna space chod deta h */
+    position: absolute;
+    left: 50px;
+    right: 0px;
+    
+}

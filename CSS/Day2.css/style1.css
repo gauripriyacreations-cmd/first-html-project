@@ -1,0 +1,31 @@
+h1{
+    background-color: rgb(234, 152, 52);
+    height: 50px;
+    /*width: 300px;
+    border-width: 7px;
+    border-style: dotted;
+    border-color: aqua;
+    */
+    /*dr method*/
+    border: 10px solid green;
+    padding: 5px;
+    margin:10px
+    
+    
+    
+}
+h2{
+    background-color: aqua;
+}
+
+h3{
+    background-color: rgb(230, 142, 156);
+    /*padding: 10px;
+    border: 10px purple solid ;
+    margin: 10px;
+    border-top: 10px solid red;
+    padding-right: 30px;*/
+    padding :40px 10px 30px 30px ;
+    margin: 10px 5px 15px 2px
+
+} 

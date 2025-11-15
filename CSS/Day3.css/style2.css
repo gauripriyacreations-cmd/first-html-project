@@ -1,0 +1,15 @@
+h1{
+    background-color: aqua;
+}
+.classa{
+    background-color: rgb(113, 41, 177);
+
+/*priority given to id*/
+}
+#firstid{
+    background-color: greenyellow;
+}
+li{
+    background-color: aqua
+    ;
+}

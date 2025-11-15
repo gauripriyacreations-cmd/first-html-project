@@ -1,0 +1,32 @@
+span{
+    color: blue;
+}
+/*block line to inline element*/
+h2{
+    background-color: blanchedalmond;
+
+}
+h1{
+    background-color: aqua;
+    /*height: 200px;
+    width: 300px;
+    padding-left: 23px;
+    padding-right: 33px; 
+    padding-top: 5px; 
+    padding-bottom:5px;  */       /*block level el consider padding and marginn both horiz and vert*/
+    /*margin: 35px;*/
+    padding-left: 23px;
+    padding-right: 33px;/*on inlining the el no diaplacement in top and bottom of text*/
+    padding-top: 9px; 
+    padding-bottom:5px;         /*inline el not consider padding and marginn both horiz and vert*/
+    margin: 35px;
+}
+/*now converting h1 to in line el*/
+h1{
+    background-color: aqua;
+    display:block;
+}
+/*now see diff between h1 and h2
+h1 now colour only the text after converting into inline el
+but h2 is block el covering whole width
+/*for inline to block use display:block;
